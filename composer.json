@@ -1,8 +1,8 @@
 {
     "name": "codicastudio/texttospeech",
-    "description": "A noobs worthless garbage, just learning.",
+    "description": "A random Codica Studio package.",
     "keywords": [
-        "worthless garabage by a noob."
+        ""
     ],
     "homepage": "https://github.com/codicastudio/texttospeech",
     "license": "MIT",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
         "illuminate/support": "^8.0"
     },
