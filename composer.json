@@ -1,0 +1,54 @@
+{
+    "name": "codicastudio/texttospeech",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/texttospeech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "aws/aws-sdk-php": "^3.0",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cion\\TextToSpeech\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cion\\TextToSpeech\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cion\\TextToSpeech\\Providers\\TextToSpeechServiceProvider"
+            ],
+            "aliases": {
+                "TTS": "Cion\\TextToSpeech\\Facades\\TextToSpeechFacade"
+            }
+        }
+    }
+}
