@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/texttospeech",
+    "name": "codica-studio/texttospeech",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/texttospeech",
+    "homepage": "https://github.com/codica-studio/texttospeech",
     "license": "MIT",
     "authors": [
         {
