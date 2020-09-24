@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/texttospeech",
+    "name": "codicastudio/text-to-speech",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/texttospeech",
+    "homepage": "https://github.com/codicastudio/text-to-speech",
     "license": "MIT",
     "authors": [
         {
@@ -48,5 +48,7 @@
                 "TTS": "Cion\\TextToSpeech\\Facades\\TextToSpeechFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
